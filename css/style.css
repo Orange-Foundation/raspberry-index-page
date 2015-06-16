@@ -1,0 +1,306 @@
+body, img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1005px;
+    margin: 0 auto;
+    font-family: arial;
+    font-size: 0, 8em;
+    color: #787878;
+    height: 100%;
+}
+
+#container h1 {
+    color: #F50;
+    margin-top: 0px;
+}
+
+#container a {
+    color: #787878;
+    font-size: 1, 4em;
+    font-weight: bold;
+}
+
+#container h2 {
+    margin-top: 0px;
+    font-size: 1em;
+    color: #787878;
+}
+
+#container h2.bibliotheque_ctn {
+    border-bottom: 1px #ccc solid;
+    padding-bottom: 3px;
+}
+
+.clear {
+    clear: both;
+}
+
+.orange {
+    color: #F50;
+}
+
+.accessibilite {
+    text-indent: -9000px;
+    left: -9000px;
+    position: absolute;
+}
+
+/* = media -------------------------- */
+#container #media {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container #media li {
+    border: 1px #f50 solid;
+    display: inline-block;
+    width: 195px;
+    height: 90px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    background: #f2f2f2;
+    border-radius: 10px;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#container #media li a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+/* = fil ---------------------------- */
+#container #chemin {
+    width: 975px;
+    background: #f2f2f2;
+    padding: 10px;
+    border: 1px #ddd solid;
+    margin-bottom: 10px;
+}
+
+#container #chemin ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container #chemin ul li {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* = niveau scolaire */
+#container #niveau, #container #niveau li ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container #niveau li {
+    border: 1px #f50 solid;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#container #niveau li a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#container #niveau li ul li {
+    background: #f2f2f2;
+    font-size: 1.3em;
+}
+
+#container #niveau h2 {
+    font-size: 1.5em;
+}
+
+.annee {
+    width: 90%;
+}
+
+/* = matiere ------------------------ */
+#container #matiere {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container #matiere li {
+    border: 1px #f50 solid;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    text-align: center;
+    overflow: hidden;
+}
+
+#container #matiere li img {
+    margin-bottom: 10px;
+}
+
+#container #matiere li a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#container #matiere_mediatheque {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container #matiere_mediatheque li {
+    border: 1px #f50 solid;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    text-align: center;
+    overflow: hidden;
+}
+
+#container #matiere_mediatheque li img {
+    margin-bottom: 10px;
+}
+
+#container #matiere_mediatheque li a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.rubrique {
+    width: 453px;
+    min-height: 107px;
+    background: #f2f2f2;
+}
+
+.item {
+    width: 205px;
+    min-height: 255px;
+    background: #f2f2f2;
+}
+
+.document {
+    width: 205px;
+    min-height: 107px;
+    background: #ccc;
+}
+
+.video {
+    width: 205px;
+    min-height: 205px;
+}
+
+.rubrique a {
+    font-size: 1.8em;
+    margin-top: 20px;
+    float: left;
+    width: 430px;
+    display: block;
+}
+
+.item a {
+}
+
+.document a {
+    font-size: 1.2em;
+    margin-top: 20px;
+    float: left;
+    width: 215px;
+    display: block;
+    color: #444 !important;
+}
+
+.video a {
+    font-size: 1.2em;
+    margin-top: 20px;
+    float: left;
+    width: 215px;
+    display: block;
+}
+
+#container .plan {
+    width: 975px;
+    background: #f2f2f2;
+    padding: 10px;
+    border: 1px #ddd solid;
+    margin-bottom: 10px;
+}
+
+#container .plan h2 {
+    font-size: 1.8em;
+    margin: 0px;
+}
+
+/* = pagination ---------------------- */
+/*
+#container #pagination {width:975px;background:#f2f2f2;padding:10px;border:1px #ddd solid;margin-bottom:10px;float:left;}
+#container #pagination a.lien_pagination, #container #pagination span.tbc {display:block;margin-right:10px;padding:10px;float:left;border:1px #ddd solid;background:#FFF;text-decoration:none;}
+#container #pagination a.on     {border-color:#F50;}
+*/
+
+/* = pied de page -------------------- */
+#pied {
+    position: relative;
+    bottom: 0px;
+    color: #787878;
+    width: 995px;
+    border-top: 1px #ccc solid;
+    padding-top: 5px;
+}
+
+#pied a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/* = page diagnostic ------------------ */
+.info, .data {
+    display: inline-block;
+    border-bottom: 1px #ccc solid;
+    padding-bottom: 3px;
+    margin-bottom: 3px
+}
+
+.info {
+    width: 30%;
+}
+
+.data {
+    width: 70%;
+}
+
+@media (max-width: 900px) {
+    #container {
+        width: 550px
+    }
+
+    #container #chemin {
+        width: 530px;
+    }
+
+    #pied {
+        width: 540px;
+    }
+
+    #container #plan {
+        width: 530px;
+    }
+}
+
